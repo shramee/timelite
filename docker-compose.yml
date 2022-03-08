@@ -5,5 +5,5 @@ services:
     build: .
     command: yarn run prod:start
     ports:
-      - 80:80
+      - 1000:80
     restart: always
